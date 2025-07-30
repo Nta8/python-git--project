@@ -1,3 +1,8 @@
+import config
+
+def say_hello(name):
+    print(f"Hello, {name} from {config.APP_NAME}!")
+
 def say_hello(name):
     print(f"Hello, {name}!")
 
